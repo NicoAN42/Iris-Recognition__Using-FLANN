@@ -204,14 +204,14 @@ class Methods(tk.Frame):
 # Documentation
 ### Menu
 
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(106).png "")
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(107).png "")
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(108).png "")
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(109).png "")
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(110).png "")
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(106).png)
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(107).png)
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(108).png)
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(109).png)
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(110).png)
 
 ### Training and Comparing Data
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG)
 
 ### Result
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(111).png "")
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(111).png)
