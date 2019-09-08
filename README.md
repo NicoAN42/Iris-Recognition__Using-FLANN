@@ -214,4 +214,4 @@ class Methods(tk.Frame):
 ![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
 
 ### Result
-![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
+![Image](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/Screenshot%20(111).png "")
