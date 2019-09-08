@@ -202,4 +202,11 @@ class Methods(tk.Frame):
 ```
 
 # Documentation
+### Menu
 ![1](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
+
+### Training and Comparing Data
+![3](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
+
+### Result
+![3](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
