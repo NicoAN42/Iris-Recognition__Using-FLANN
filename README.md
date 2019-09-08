@@ -1,4 +1,4 @@
-# Iris Recognition
+## Iris Recognition
 
 is an automated method of biometric identification that uses mathematical pattern-recognition techniques on video images of one or both of the irises of an individual's eyes, whose complex patterns are unique, stable, and can be seen from some distance.
 
@@ -202,4 +202,4 @@ class Methods(tk.Frame):
 ```
 
 # Documentation
-![1](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/a.PNG "")
+![1](https://github.com/NicoAN42/Iris-Recognition__Using-FLANN/blob/master/11.PNG "")
