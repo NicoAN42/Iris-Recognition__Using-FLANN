@@ -28,7 +28,7 @@ class SampleApp(tk.Tk):
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
         self.geometry("300x150+600+200")  # Width x Height + Right + Left
-        self.title('Iris : Healthy Detection')
+        self.title('Dr Eyes Care')
 
         self.frames = {}
         for F in (LoginPage, Home, Methods):
@@ -39,6 +39,7 @@ class SampleApp(tk.Tk):
             frame.grid(row=0, column=0, sticky="nsew")
 
         self.show_frame("LoginPage")
+        
 
     def show_frame(self, page_name):
         '''Show a frame for the given page name'''
@@ -51,7 +52,7 @@ class LoginPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
-        label = tk.Label(self, text="Impact Eyecare", font=controller.title_font)
+        label = tk.Label(self, text="Dr Eyes Care", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
 
         username = "admin"
@@ -131,6 +132,7 @@ class Methods(tk.Frame):
             img1 = cv2.imread('1.png', cv2.IMREAD_GRAYSCALE)
             imageA = cv2.resize(img1, (450, 237))
             database = os.listdir("db")
+            print("Processing data using FLANN & SIFT Algorithm...")
 
             for image in database:
                 try:
@@ -159,7 +161,7 @@ class Methods(tk.Frame):
                     # cv.drawMatchesKnn untuk list matches.
 
                     amount = len(good)
-                    print('Comparing image with ' + image + " using FLANN method")
+                    #print('Comparing image with ' + image + " using FLANN method")
 
                     title = "Comparing"
                     fig = plt.figure(title)
@@ -241,6 +243,7 @@ class Methods(tk.Frame):
 
         back = tk.Button(self, text="Back", command=goback)
         back.pack()
+        
 
 
 if __name__ == "__main__":
